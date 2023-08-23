@@ -30,7 +30,7 @@ jobs:
           context: signaling-server/.
           file: signaling-server/Dockerfile
           push: true
-          tags: l4rm4nd/transferzip:signaling-server
+          tags: c987617162/transferzip:signaling-server
           platforms: linux/amd64
       -
         name: Build and push web-server
@@ -39,5 +39,5 @@ jobs:
           context: web-server/.
           file: web-server/Dockerfile
           push: true
-          tags: l4rm4nd/transferzip:web-server
+          tags: c987617162/transferzip:web-server
           platforms: linux/amd64          
